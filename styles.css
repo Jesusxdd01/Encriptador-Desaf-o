@@ -1,0 +1,91 @@
+:root {
+    --blanco: #ffffff;
+    --primario: #0a3871;
+    --secundario: #757575;
+    --oscuro: #212121;
+}
+.header{
+    display: flex;
+    margin: 20px;
+}
+h1 span{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+}
+.contenedor {
+    margin: 0 auto;
+    max-width: 600px;
+}
+.sombra {
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+}
+
+
+#div1 {
+    flex: 0 0 70%; 
+    height: 400px;
+}
+.cajatexto{
+    border: none;
+    resize: none;
+    width: 95%;
+    height: 250px;
+    color: var(--primario);
+    font-size: 20px;
+}
+.cajatexto::placeholder{
+    color: var(--primario);
+}
+.alerta{
+    display: flex;
+    align-items: center;
+}
+.alerta img {
+    width: 20px; 
+    height: auto; 
+    margin-right: 10px; 
+}  
+.alerta p {
+    margin: 0; 
+}
+.contenedorBotones{
+    padding-top: 10px;
+}
+.botonP{
+    background-color: var(--primario);
+}
+.botonS{
+    background-color: var(--secundario);
+}
+
+
+#div2 {
+    flex: 0 0 30%;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+#imgMuñeco{
+    width: 250px;
+    height: 160px;
+}
+.contenedorCopiar{
+    position: absolute;
+    display: flex;
+    bottom: 25px;
+    left: 120px;
+}
+#textoResultado{
+    text-align: justify;
+}
+.ocultar{
+    display: none;
+}
